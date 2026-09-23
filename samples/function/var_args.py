@@ -8,7 +8,7 @@ def hello(greeting, *args):
         print('%s, %s!' % (greeting, ', '.join(args)))
 
 hello('Hi') # => greeting='Hi', args=()
-hello('Hi', 'Sarah') # => greeting='Hi', args=('Sarah')
+hello('Hi', 'Sarah',) # => greeting='Hi', args=('Sarah')
 hello('Hello', 'Michael', 'Bob', 'Adam') # => greeting='Hello', args=('Michael', 'Bob', 'Adam')
 
 names = ('Bart', 'Lisa')
